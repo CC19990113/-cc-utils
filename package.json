@@ -1,0 +1,32 @@
+{
+  "name": "@cc/utils",
+  "collaborators": [
+    "zhaochangchang <1552073962@qq.com>"
+  ],
+  "description": "A collection of utility functions for various tasks. Licensed under MIT/Apache-2.0. Includes TypeScript support and compatible with both ESM and CJS import styles.",
+  "license": "MIT/Apache-2.0",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "types": "./index.d.ts",
+    "import": "./dist/index.js",
+    "require": "./dist/index.umd.cjs"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.1"
+  }
+}
